@@ -39,3 +39,58 @@
     text-decoration: none;
     font-size: 2rem;
 }
+.fa-gem{
+    margin-right: 0.5rem;
+}
+.navbar_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+.navbar_item{
+    height: 80px;
+}.nabvar_links{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+.navbar_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #f77062;
+    color: #fff;
+}
+.button:hover{
+    background-color: #4837ff;
+    transition: all 0.3s ease;
+}
+.nabvar_links:hover{
+    color: #f77062;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 960px) {
+    .navbar_container{
+        
+    }
+}
