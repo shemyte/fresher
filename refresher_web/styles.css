@@ -165,9 +165,9 @@
         opacity: 0;
     }
     #mobile_menu.is-active .bar:nth-child(1){
-        transform: translate(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
     }
     #mobile_menu.is-active .bar:nth-child(3){
-        transform: translate(-8px) rotate(-45deg);
-    }
+        transform: translateY(-8px) rotate(-45deg);
+    } 
 }
