@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sign up page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="signupstyle.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="container">
+            <h1 class="label">User Login</h1>
+            <form action="" class="login_form" method="post" name="form" onsubmit="return validate()">
+                <div class="font">Email</div>
+                <input type="text" name="email" autocomplete="off">
+                <div id="email_error">Email error</div>
+
+                <div class="font font2">Password</div>
+                <input type="password" name="password">
+                <div id="pass_error">Password error</div>
+
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+        
+        <script src="valid.js" async defer></script>
+    </body>
+</html>
